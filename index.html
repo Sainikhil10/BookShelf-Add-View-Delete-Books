@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>BookShelf</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h2>📚 BookShelf</h2>
+    <form id="book-form">
+      <input type="text" id="title" placeholder="Book Title" required />
+      <input type="text" id="author" placeholder="Author Name" required />
+      <button type="submit">Add Book</button>
+    </form>
+    <table>
+      <thead>
+        <tr><th>Title</th><th>Author</th><th>Delete</th></tr>
+      </thead>
+      <tbody id="book-list"></tbody>
+    </table>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
